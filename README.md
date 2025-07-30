@@ -33,7 +33,7 @@ PREREQUISITES
 - Basic understanding of AWS and S3.
 - Familiarity with Terraform syntax.
 - AWS CLI configured via aws configure.
-- [Terraform](https://developer.hashicorp.com/terraform/downloads) installed locally.
+- Terraform(https://developer.hashicorp.com/terraform/downloads) installed locally.
 - A simple HTML file (index.html).
 
 
