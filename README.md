@@ -1,9 +1,12 @@
 TERRAFORM AWS S3 STATIC WEBSITE HOSTING
 
+
+
 PROJECT OVERVIEW
 In this project, I provisioned and deployed a static website using Terraform and Amazon S3. The objective was to automate the setup of a fully functional static site, demonstrating infrastructure as code (IaC) and public content delivery via S3.
 
 This is part of a broader DevOps learning journey, and this lab shows how to take an HTML file, upload it to an S3 bucket, configure it for static website hosting, make it publicly accessible, and expose the website via an endpoint.
+
 
 
 
@@ -24,12 +27,16 @@ KEY FEATURES
 
 
 
+
+
 PREREQUISITES
 - Basic understanding of AWS and S3.
 - Familiarity with Terraform syntax.
 - AWS CLI configured via aws configure.
 - [Terraform](https://developer.hashicorp.com/terraform/downloads) installed locally.
 - A simple HTML file (index.html).
+
+
 
 
 
@@ -53,6 +60,9 @@ Terraform will output your website’s endpoint.
 
 
 
+
+
+
 ACCESS THE SITE
 - Copy the value of website_url from the output.
 - Paste it in your browser to view your hosted HTML site.
@@ -60,6 +70,8 @@ ACCESS THE SITE
 If the HTML file downloads instead of displaying in the browser, ensure:
 The content_type is set to "text/html" in the aws_s3_object resource.
 The bucket policy is attached **after** disabling public access blocks.
+
+
 
 
 
