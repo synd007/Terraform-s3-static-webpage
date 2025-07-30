@@ -19,7 +19,7 @@ KEY FEATURES
 #Public Access Policy
 - Attached a bucket policy allowing public read access (s3:GetObject) so the static content can be accessed via a browser.
 
-# Terraform Outputs
+#Terraform Outputs
 - Used Terraform output values to display the hosted site’s endpoint after "terraform apply".
 
 
