@@ -47,6 +47,8 @@ Create your Terraform files (main.tf, output.tf, etc.) and your index.html file 
 project-directory/
 ├── main.tf
 ├── output.tf
+├── variable.tf
+├── provider.tf
 ├── index.html
 └── policy.json
 
